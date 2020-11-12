@@ -6,7 +6,7 @@ You can use it with your own configuration file like this:
     MAINTAINER dev@goyun.info
     RUN \
         dnf -y update && \
-        dnf -y install neovim python3-neovim \
+        dnf -y install neovim python3-neovim && \
         dnf -y install fish
     ENTRYPOINT fish
 
