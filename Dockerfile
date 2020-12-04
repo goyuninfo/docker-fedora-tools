@@ -5,4 +5,4 @@ RUN \
     dnf -y install neovim python3-neovim && \
     dnf -y install mycli && \
     dnf -y install fish
-ENTRYPOINT fish
+ENTRYPOINT bash
